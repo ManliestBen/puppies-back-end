@@ -5,7 +5,7 @@ const router = Router()
 
 // ========== Public Routes ===========
 
-
+router.post('/', puppiesCtrl.create)
 
 export {
   router
